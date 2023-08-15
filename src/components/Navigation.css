@@ -1,0 +1,47 @@
+/* parent component */
+
+.Navigation {
+    background-color: rgb(252, 251, 251);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    box-shadow: 0 4px 4px rgba(0,0,0,.4);
+    align-items: center;
+}
+
+/* child component */
+/* .nav-logo {
+
+} */
+
+.nav-links {
+    display: flex;
+    
+}
+
+.nav-list {
+    display: flex;
+    align-items: stretch;
+    list-style: none;
+    column-gap: 30px;
+    color: #60abf0;
+}
+.nav-list-item {
+    display: flex;
+
+}
+
+.nav-list-item a:link, .nav-list-item a:visited {
+    color: #60abf0;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    height: 100%;
+}
+
+.nav-list-item a.active {
+    /* background-color: black; */
+    text-decoration: underline;
+
+}
